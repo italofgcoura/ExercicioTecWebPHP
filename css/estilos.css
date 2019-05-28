@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cabecalho a {
+    margin: 0px;
+    padding: 20px;
+}
+
+.cabecalho a img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand {}
+
+.bg-dark {
+    background-color: #dd3131d5 !important;
+}
+
+main {
+    padding: 0px;
+}
+
+.divMain {
+    padding: 0px;
+}
+
+.conteudoPrincipal {
+    padding: 10px;
+    margin: 10px;
+}
+
+.conteudoPrincipal .fa-star {
+    color: #dd3131d5;
+}
+
+.conteudoPrincipal .fa-star:hover {
+    color: gold;
+}
+
+.conteudoPrincipal .btn-light{
+    background: #dd3131d5;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.conteudoPrincipal .card {
+    /* margin: 1px;     */
+    padding: 10px;
+}
+
+footer {
+    background: #dd3131d5;
+}
+
+footer p {
+    text-align: center;
+    color: whitesmoke;
+}
