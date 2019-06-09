@@ -56,7 +56,10 @@
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Inserir Receitas<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">Receitas<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="inserirReceita.html">Inserir Receitas</a>
                             </li>
                         </ul>
                     </div>
@@ -72,20 +75,20 @@
         <form class="formNovaReceita">
             <div class="form-group">
                 <label for="exampleInputEmail1">Nome da Receita</label>
-                <input type="text" class="form-control" id="nomeReceita" aria-describedby="emailHelp"
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Nome da receita">
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">URL da foto</label>
-                <input type="text" class="form-control" id="urlFotoReceita" aria-describedby="emailHelp"
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="URL da foto">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Descrição da Receita</label>
-                <input type="text" class="form-control" id="descricaoReceita" placeholder="Descrição da receita">
+                <input type="text" class="form-control" id="descReceita" placeholder="Descrição da receita">
             </div>
-            <button type="submit" id="btnGravarReceita" class="btn btn-outline-success ">Enviar e gravar</button>
-            <a href="index.html" class=" btn btn-outline-secondary btn-voltar">Voltar</a>
+            <button type="submit" class="btnGravar-Receita btn btn-light ">Enviar e gravar</button>
+            <a href="index.html" class=" btn btn-light btn-voltar">Voltar</a>
         </form>
     </main>
 
@@ -99,14 +102,14 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+    <script src="js/acoes.js"></script>
+    <script src="js/ajx.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="js/acoes.js"></script>
-
 </body>
 
 </html>
